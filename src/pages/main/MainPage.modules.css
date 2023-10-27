@@ -34,10 +34,9 @@ hr {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    text-transform: capitalize;
 }
 
 .body p {
     text-indent: 50px;
-    text-align: justify;
+    margin-bottom: 10px;
 }

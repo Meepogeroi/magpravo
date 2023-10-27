@@ -16,7 +16,7 @@ function App() {
         <nav className="navbar background">
           <ul className="nav-list">
             <li><Link to="/" className='logo'>СОЦИОЛОГИЯ И ПРАВО</Link></li>
-            <li><Link to="/releases" className='navigation'><p>ВЫПУСКИ</p></Link></li>
+            <li><Link to="/releases" className='navigation'><p>ПУБЛИКАЦИИ</p></Link></li>
             <li><Link to="/conferences" className='navigation'><p>КОНФЕРЕНЦИИ</p></Link></li>
             <li><Link to="/services" className='navigation'><p>УСЛУГИ</p></Link></li>
             <li><Link to="/authors" className='navigation'><p>АВТОРАМ</p></Link></li>
@@ -35,14 +35,12 @@ function App() {
           </Routes>
         </div>
 
-        <div>
-          <footer className="footer">
-            <div className='footer-par'>
-              <p className="text-footer">Официальный сайт журнала "Социология и Право". Все права защищены.</p>
-              <p className="text-footer">При использовании опубликованных материалов ссылка на журнал "Социология и Право" обязательна - 2023</p>
-            </div>
-          </footer>
-        </div>
+        <footer className="footer">
+          <div className='footer-par'>
+            <p className="text-footer">Официальный сайт журнала "Социология и Право". Все права защищены.</p>
+            <p className="text-footer">При использовании опубликованных материалов ссылка на журнал "Социология и Право" обязательна - 2023</p>
+          </div>
+        </footer>
       </div>
     </>
   )
