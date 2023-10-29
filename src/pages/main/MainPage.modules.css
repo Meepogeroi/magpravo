@@ -39,4 +39,5 @@ hr {
 .body p {
     text-indent: 50px;
     margin-bottom: 10px;
+    text-align: justify;
 }

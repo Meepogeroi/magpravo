@@ -1,6 +1,6 @@
 //import { useState } from 'react'
 import './App.css'
-import ConferencesPage from './pages/conferences/ConferencesPage'
+import ConferencesPage from './pages/contacts/ContactsPage'
 import MainPage from './pages/main/MainPage'
 import ReleasesPage from './pages/releases/ReleasesPage'
 import { Routes, Route, Link } from "react-router-dom"
@@ -17,10 +17,10 @@ function App() {
           <ul className="nav-list">
             <li><Link to="/" className='logo'>СОЦИОЛОГИЯ И ПРАВО</Link></li>
             <li><Link to="/releases" className='navigation'><p>ПУБЛИКАЦИИ</p></Link></li>
-            <li><Link to="/conferences" className='navigation'><p>КОНФЕРЕНЦИИ</p></Link></li>
             <li><Link to="/services" className='navigation'><p>УСЛУГИ</p></Link></li>
             <li><Link to="/authors" className='navigation'><p>АВТОРАМ</p></Link></li>
             <li><Link to="/about" className='navigation'><p>О ЖУРНАЛЕ</p></Link></li>
+            <li><Link to="/conferences" className='navigation'><p>КОНТАКТЫ</p></Link></li>
           </ul>
         </nav>
 

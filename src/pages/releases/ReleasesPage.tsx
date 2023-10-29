@@ -3,7 +3,7 @@ import './ReleasesPage.modules.css'
 
 const ReleasesPage = () => {
 
-    const [pdfState, setPdfState] = useState("Методичка")
+    const [pdfState, setPdfState] = useState("Социология и Право Окт 2023")
     const url = "./pdf/" + pdfState + ".pdf"
 
     const handleButtonClick = (pdfName: string): void => {
@@ -24,8 +24,7 @@ const ReleasesPage = () => {
                 </div>
 
                 <div className='rel-list'>
-                    <button className='rel-button' onClick={() => handleButtonClick("Методичка")}>Выпуск от 27.10.2023</button>
-                    <button className='rel-button' onClick={() => handleButtonClick("Выпуск 2")}>Выпуск от 12.09.2023</button>
+                    <button className='rel-button' onClick={() => handleButtonClick("Социология и Право Окт 2023")}>Выпуск Октябрь 2023</button>
                 </div>
             </div>
         </>
